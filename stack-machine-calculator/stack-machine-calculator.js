@@ -32,7 +32,7 @@ const stackMachineCalculator = (expression) => {
               stack.push(parseInt(expArray[i]));
       }
   }
-  return stack.pop();
+  return stack.pop();s
 }
 
 module.exports = stackMachineCalculator
